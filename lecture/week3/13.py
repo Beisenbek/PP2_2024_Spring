@@ -11,3 +11,4 @@ s2 = Student(input())
 s2.printMessage()
 s1.printMessage()
 
+
