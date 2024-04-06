@@ -43,6 +43,8 @@ while not done:
         pos = food.can_eat(worm.points[0])
         if(pos != None):
             worm.increase(pos)
+            if len(worm.points) % 3 == 0:
+                wall.next_level()
 
         create_background(screen, 400, 300)
         

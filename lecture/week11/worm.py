@@ -4,7 +4,7 @@ from game_object import Point
 
 class Worm(GameObject):
     def __init__(self, tile_width):
-        super().__init__([Point(20, 20),Point(40, 20)],(0,0,255), tile_width)
+        super().__init__([Point(20, 20)],(0,0,255), tile_width)
         self.DX = 1
         self.DY = 0
 
